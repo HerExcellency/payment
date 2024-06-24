@@ -11,11 +11,11 @@ interface ImageButtonProps {
 const ImageButton = ({ imgSrc, alt, placeholder, className, onClick, tinyPara  }:ImageButtonProps ) => {
     let child;
     if (imgSrc && !placeholder) {
-        child = <img src={imgSrc} alt={alt} className=" h-auto" style={{ maxWidth: '30%'}}/>
+        child = <img src={imgSrc} alt={alt} className=" h-auto mr-2" />
     } else if (placeholder && !imgSrc) {
         child = <span>{placeholder}</span>
     } else if (imgSrc && placeholder) {
-        child = <><img src={imgSrc} alt={alt} className=" h-auto " style={{ maxWidth: '30%'}}/>
+        child = <><img src={imgSrc} alt={alt} className=" h-auto mr-2" />
        <div className="grid">
             <p className="text-sm">{tinyPara}</p><span><b>{placeholder}</b></span>
        </div>

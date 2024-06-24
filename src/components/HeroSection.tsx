@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 // import Logo from '../assets/react.svg'
 import hand from '../assets/Img/handCardTwo.png'
 // import google from '../assets/icons/playstore.png'
-import playstore from '../assets/icons/playstoreWhite.png'
-import applesvg from '../assets/icons/app.svg'
+import playstore from '../assets/icons/googleAgain.png'
+import applesvg from '../assets/icons/appleAgain.png'
 import chevron from '../assets/icons/right-chevron.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -59,16 +59,16 @@ const HeroSection: React.FC = () => {
         <ImageButton
           alt="Apple Button"
           imgSrc= {applesvg}
-          tinyPara='Download on'
-          placeholder=" Appstore"
+          // tinyPara='Download on'
+          placeholder="Get on Appstore"
           className={` flex lg:inline-flex sm:inline-flex text-white  bg-familyBlue mt-12 mb-6 mr-2`}
           onClick={() => { redirectToSignin() }}
         />
         <ImageButton
           alt="Google Button"
           imgSrc= {playstore}
-          tinyPara='Download on'
-          placeholder="Google"
+          // tinyPara='Download on'
+          placeholder="Get on Google"
           className={` flex lg:inline-flex sm:inline-flex text-white bg-familyBlue mt-12 mb-6`}
           onClick={() => { redirectToSignup() }}
         />
