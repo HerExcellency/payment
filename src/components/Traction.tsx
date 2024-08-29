@@ -1,5 +1,5 @@
 import React from 'react';
-import mockPhone from '../assets/Img/mockImage.png'
+import mockPhone from '../assets/Img/phone.jpg'
 // import './tailwind.css'; // Ensure this import is present to apply Tailwind styles
 
 const Traction: React.FC = () => {
@@ -20,7 +20,7 @@ const Traction: React.FC = () => {
             </div>
 
             {/* Second Column */}
-            <div className="row-span-2 h-[80vh]">
+            <div className="row-span-2 lg:h-[80vh]">
                 <img 
                     src= {mockPhone} 
                     alt="Placeholder" 

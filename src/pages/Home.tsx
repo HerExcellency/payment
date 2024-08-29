@@ -25,7 +25,7 @@ const handleButtonClick = () => {
           
           <Traction />
         </div>
-        <div className="min-h-screen flex items-center justify-center bg-gray-100">
+        <div className="py-20 flex items-center justify-center bg-gray-100">
           <CustomerCard
             imgSrc= {women}
             imgAlt="Example image"

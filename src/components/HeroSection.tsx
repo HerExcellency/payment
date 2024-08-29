@@ -2,9 +2,7 @@ import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
 import ImageButton from './buttons';
 import { useNavigate } from 'react-router-dom';
-// import Logo from '../assets/react.svg'
-import hand from '../assets/Img/handCardTwo.png'
-// import google from '../assets/icons/playstore.png'
+import hand from '../assets/Img/handPos.jpg'
 import playstore from '../assets/icons/googleAgain.png'
 import applesvg from '../assets/icons/appleAgain.png'
 import chevron from '../assets/icons/right-chevron.png'
