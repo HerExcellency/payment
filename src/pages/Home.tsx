@@ -6,7 +6,6 @@ import Traction from '../components/Traction';
 import CustomerCard from '../components/CustomerCard';
 import women from '../assets/Img/women.jpeg'
 import Footer from '../components/Footer';
-// import Footer from '../components/Footer';
 const Home: React.FC = () => {
 //   const navigate = useNavigate();
 const handleButtonClick = () => {
@@ -18,7 +17,6 @@ const handleButtonClick = () => {
         <Navbar />
         <HeroSection />
         <div className=" mx-auto py-12 px-12">
-            {/* <h1 className="text-2xl font-bold mb-4">Responsive Image Component</h1> */}
             <Slide />
         </div>
         <div>

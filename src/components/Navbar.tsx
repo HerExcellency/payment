@@ -110,7 +110,7 @@ const Navbar: React.FC<NavbarProps> = ({ userId }) => {
         )}
         {userId && (
           <button
-            onClick={() => window.location.href = 'https://platform.buildas.io'}
+            onClick={() => window.location.href = 'https://platform.Payassist.io'}
             className="block text-sm px-4 py-2 text-white bg-familyBlue hover:bg-blue-600"
           >
             Build App

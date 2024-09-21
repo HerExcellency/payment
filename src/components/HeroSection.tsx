@@ -71,12 +71,6 @@ const HeroSection: React.FC = () => {
           onClick={() => { redirectToSignup() }}
         />
         </div>
-        {/* <p className="font-extrabold text-sm mt-6 mb-2 text-left lg:text-left">TRUSTED BY</p>
-        <div className="flex justify-evenly lg:justify-start md:justify-evenly items-center space-x-0 md:space-x-4 " data-aos="zoom-in-right">
-          <img src={Logo} alt="Antlers Logo" className="my-4 md:my-0 mx-2 lg:mx-0  " />
-          <img src={Logo} alt="Google Logo" className="my-4 md:my-0 mx-6 lg:mx-0" />
-          <img src={Logo} alt="AWS Logo" className="my-4 md:my-0 mx-2 lg:mx-0 " />
-        </div> */}
       </div>
       <div className="flex-1 p-6 lg:w-1/2" data-aos="zoom-in-down" data-aos-duration="1000">
         {/* Replace the src with your image path */}

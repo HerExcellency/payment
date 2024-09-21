@@ -1,6 +1,5 @@
 import React from 'react';
 import mockPhone from '../assets/Img/phone.jpg'
-// import './tailwind.css'; // Ensure this import is present to apply Tailwind styles
 
 const Traction: React.FC = () => {
     return (

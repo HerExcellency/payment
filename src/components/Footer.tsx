@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import React from 'react'; 
 import Logos from '../assets/react.svg' 
-// import Antler from '../assets/Image/Antler.png'
 
 
 const Footer: React.FC = () => {
@@ -14,12 +13,8 @@ const Footer: React.FC = () => {
                 <div className="mb-4">
                   <img src={Logos} alt="" style={{maxWidth: '23%'}}/>
                 </div>
-                <p className="pr-4">Buildas is a text-to-software platform that allows any business to effortlessly plan, customise, and maintain software with AI. </p>
+                <p className="pr-4">payassist is a text-to-software platform that allows any business to effortlessly plan, customise, and maintain software with AI. </p>
               </div>
-              {/* <div className="flex">
-                  <p className="mr-3">We are backed by</p>
-                  <img className="mb-4" src={Antler} alt="" />
-              </div> */}
             </div>
         <div className="lg:w-1/3 sm:hidden hidden"></div>
         <div className="flex space-x-4 sm:w-full  lg:w-1/3 ">
@@ -31,21 +26,11 @@ const Footer: React.FC = () => {
                       Templates
                       </a>
                   </li> */}
-                  {/* <li >
-                      <a href="#" className="text-gray-600 hover:text-gray-300">
-                      Solutions
-                      </a>
-                  </li>   */}
                   <li >
                       <Link to="/Plans" className="text-gray-600 hover:text-gray-300">
                         Pricing
                       </Link>
                   </li>
-                  {/* <li >
-                      <a href="#" className="text-gray-600 hover:text-gray-300">
-                      Blog
-                      </a>
-                  </li> */}
               </ul>
           </div>
           <div className="mx-6"></div>
@@ -63,12 +48,12 @@ const Footer: React.FC = () => {
                       </Link>
                   </li>
                   <li >
-                      <Link to="/Buildas-Policy" className="text-gray-600 hover:text-gray-300">
+                      <Link to="/Payassist-Policy" className="text-gray-600 hover:text-gray-300">
                       Privacy Policy
                       </Link>
                   </li>
                   <li >
-                      <Link to="/Buildas-Terms" className="text-gray-600 hover:text-gray-300">
+                      <Link to="/Payassist-Terms" className="text-gray-600 hover:text-gray-300">
                       Terms & Conditions
                       </Link>
                   </li>
@@ -78,14 +63,12 @@ const Footer: React.FC = () => {
       </div>
         <footer className="w-full grid grid-cols-1 place-items-center lg:flex lg:justify-between mt-12 py-5 border-t border-gray-200">
           <div className="order-last lg:order-none">
-              <p>© 2024. All rights reserved, Buildas</p>
+              <p>© 2024. All rights reserved</p>
           </div>
           <div className="order-first lg:order-none sm:mb-5">
               <div className="flex space-x-8 mb-10 lg:mb-0">
-                  {/* <a href="#" className="text-gray-600 hover:text-gray-400 text-xl lg:text-base"><i className="fab fa-facebook"></i></a>
-                  <a href="#" className="text-gray-600 hover:text-gray-400 text-xl lg:text-base"><i className="fab fa-twitter"></i></a> */}
-                  <a href="//www.instagram.com/buildas_africa/" className="text-gray-600 hover:text-gray-400 text-xl lg:text-base"><i className="fab fa-instagram"></i></a>
-                  <a href="//www.linkedin.com/company/buildas/" className="text-gray-600 hover:text-gray-400 text-xl lg:text-base"><i className="fab fa-linkedin"></i></a>
+                  <a href="//www.instagram.com/Payassist_africa/" className="text-gray-600 hover:text-gray-400 text-xl lg:text-base"><i className="fab fa-instagram"></i></a>
+                  <a href="//www.linkedin.com/company/Payassist/" className="text-gray-600 hover:text-gray-400 text-xl lg:text-base"><i className="fab fa-linkedin"></i></a>
               </div>
           </div>
       </footer>
