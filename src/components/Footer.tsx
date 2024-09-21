@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import React from 'react'; 
 import Logos from '../assets/react.svg' 
+import partner from '../assets/Img/Paystack_Logo.png' 
 
 
 const Footer: React.FC = () => {
@@ -9,11 +10,22 @@ const Footer: React.FC = () => {
       <div className="container mx-auto flex flex-wrap justify-between w-full">
         
          <div className="grid sm:text-left sm:w-full lg:w-1/2 sm:mb-6">
-            <div className=" mb-10">
+            <div className=" mb-10 sm:w-12/12">
                 <div className="mb-4">
                   <img src={Logos} alt="" style={{maxWidth: '23%'}}/>
                 </div>
                 <p className="pr-4">payassist is a text-to-software platform that allows any business to effortlessly plan, customise, and maintain software with AI. </p>
+
+                <div className="mt-4">
+                  <p className="text-[12px]">Proudly sponsored by:</p>
+                  <div className="mb-4 flex gap-4 ">
+                    <img src={partner} alt="" className="" style={{maxWidth: '36%'}}/>
+                    
+                    <img src={partner} alt="" className="" style={{maxWidth: '36%'}}/>
+                  </div>
+
+                </div>
+               
               </div>
             </div>
         <div className="lg:w-1/3 sm:hidden hidden"></div>
