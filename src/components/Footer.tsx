@@ -33,11 +33,7 @@ const Footer: React.FC = () => {
           <div className="calib mb-4 w-full sm:w-full sm:w-1/2 lg:w-1/2">
               <h3 className="text-lg font-semibold mb-2 ">Product</h3>
               <ul>
-                  {/* <li >
-                      <a href="#" className="text-gray-600 hover:text-gray-300">
-                      Templates
-                      </a>
-                  </li> */}
+                 
                   <li >
                       <Link to="/Plans" className="text-gray-600 hover:text-gray-300">
                         Pricing

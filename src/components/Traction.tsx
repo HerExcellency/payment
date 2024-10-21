@@ -4,7 +4,7 @@ import mockPhone from '../assets/Img/phone.jpg'
 const Traction: React.FC = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-24 px-12 ">
-            {/* First Column */}
+            {
             <div className="flex flex-col space-y-4 h-full">
                 <div className="flex-grow p-4 rounded lg:text-right grid content-center py-4 lg:pl-20 pr-4 ">
                     <h1 className="font-special font-bold text-4xl colorCode">1.</h1>
