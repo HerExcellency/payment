@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import React from 'react'; 
-import Logos from '../assets/react.svg' 
+// import Logos from '../assets/react.svg' 
 import partner from '../assets/Img/Paystack_Logo.png' 
+import Logo from "../assets/P1-1.png";
 
 
 const Footer: React.FC = () => {
@@ -11,17 +12,22 @@ const Footer: React.FC = () => {
         
          <div className="grid sm:text-left sm:w-full lg:w-1/2 sm:mb-6">
             <div className=" mb-10 sm:w-12/12">
-                <div className="mb-4">
+                {/* <div className="mb-4">
                   <img src={Logos} alt="" style={{maxWidth: '23%'}}/>
+                </div> */}
+                <div className="flex ">
+                    <a href="/" className="flex items-center pb-4  ">
+                      <img src={Logo} alt="Logo" className="h-20 -mr-2" /><h2 className="font-bold text-[31px] text-familyBlue ">PayAssist</h2>
+                    </a>
                 </div>
                 <p className="pr-4">payassist is a text-to-software platform that allows any business to effortlessly plan, customise, and maintain software with AI. </p>
 
                 <div className="mt-4">
                   <p className="text-[12px]">Proudly sponsored by:</p>
                   <div className="mb-4 flex gap-4 ">
-                    <img src={partner} alt="" className="" style={{maxWidth: '36%'}}/>
+                    <img src={partner} alt="" className="" style={{maxWidth: '22%'}}/>
                     
-                    <img src={partner} alt="" className="" style={{maxWidth: '36%'}}/>
+                    <img src={partner} alt="" className="" style={{maxWidth: '22%'}}/>
                   </div>
 
                 </div>
@@ -30,7 +36,7 @@ const Footer: React.FC = () => {
             </div>
         <div className="lg:w-1/3 sm:hidden hidden"></div>
         <div className="flex space-x-4 sm:w-full  lg:w-1/3 ">
-          <div className="calib mb-4 w-full sm:w-full sm:w-1/2 lg:w-1/2">
+          <div className="calib mb-4 w-full sm:w-full  lg:w-1/2">
               <h3 className="text-lg font-semibold mb-2 ">Product</h3>
               <ul>
                  
@@ -42,7 +48,7 @@ const Footer: React.FC = () => {
               </ul>
           </div>
           <div className="mx-6"></div>
-          <div className="calib mb-4 w-full sm:w-full sm:w-1/2 lg:w-1/2">
+          <div className="calib mb-4 w-full sm:w-full lg:w-1/2">
               <h3 className="text-lg font-semibold mb-2">Company</h3>
               <ul>
                   <li >

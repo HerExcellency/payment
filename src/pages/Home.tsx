@@ -2,10 +2,11 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import Slide from '../components/Slide';
-import Traction from '../components/Traction';
+// import Traction from '../components/Traction';
 import CustomerCard from '../components/CustomerCard';
 import women from '../assets/Img/women.jpeg'
 import Footer from '../components/Footer';
+import RideAppLayout from '../components/RideAppLayout';
 const Home: React.FC = () => {
 //   const navigate = useNavigate();
 const handleButtonClick = () => {
@@ -21,7 +22,8 @@ const handleButtonClick = () => {
         </div>
         <div>
           
-          <Traction />
+          {/* <Traction /> */}
+          <RideAppLayout />
         </div>
         <div className="py-20 flex items-center justify-center bg-gray-100">
           <CustomerCard

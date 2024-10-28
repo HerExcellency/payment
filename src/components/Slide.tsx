@@ -3,9 +3,9 @@ import gram from '../assets/Img/gram.jpg'
 import native from '../assets/Img/img-three.jpg'
 
 const images = [
-    women,
+    native,
     gram,
-    native
+    women,
 ];
 
 const Slide: React.FC = () => {

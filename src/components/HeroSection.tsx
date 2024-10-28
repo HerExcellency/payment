@@ -2,7 +2,8 @@ import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
 import ImageButton from './buttons';
 import { useNavigate } from 'react-router-dom';
-import hand from '../assets/Img/handPos.jpg'
+// import hand from '../assets/Img/handPos.jpg'
+import hand from '../assets/Img/handPosP.png'
 import playstore from '../assets/icons/googleAgain.png'
 import applesvg from '../assets/icons/appleAgain.png'
 import chevron from '../assets/icons/right-chevron.png'
@@ -27,7 +28,7 @@ const HeroSection: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row  lg:flex-row items-center justify-between px-12 " style={{ minHeight: '80vh', marginTop: '100px' }}>
+    <div className=" flex flex-col md:flex-row  lg:flex-row items-center justify-between px-12 min-h-[56vh] lg:min-h-[80vh] md:min-h-[80vh]" style={{  marginTop: '100px' }}>
       <div className="flex-1 lg:p-6 md:p-12 lg:w-1/2 items-left mt-8">
         
         <h2 className=" md:text-5xl text-gray-800 text-left text-3xl lg:text-5xl  mb-4 font-manrope text-48 leading-56 font-manrope font-extrabold leading-tight tracking-normal lg:text-left" data-aos="fade-down-right" data-aos-duration="1000">

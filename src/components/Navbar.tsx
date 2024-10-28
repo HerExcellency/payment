@@ -1,5 +1,5 @@
 import React, { useState  } from 'react';
-import Logo from "../assets/react.svg";
+import Logo from "../assets/P1-1.png";
 import ImageButton from './buttons'; 
 
 interface NavbarProps {
@@ -15,8 +15,8 @@ const Navbar: React.FC<NavbarProps> = ({ userId }) => {
       <div className=" mx-auto px-4">
         <div className="flex justify-between">
           <div className="flex ">
-              <a href="/" className="flex items-center py-4 px-2">
-                <img src={Logo} alt="Logo" className="h-8 mr-2" />
+              <a href="/" className="flex items-center py-4 px-2  ">
+                <img src={Logo} alt="Logo" className="h-20 -mr-2" /><h2 className="font-bold text-[31px] text-familyBlue ">PayAssist</h2>
               </a>
           </div>
           <div className="hidden md:flex items-center space-x-7 ">
